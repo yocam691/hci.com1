@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+ <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <link rel="stylesheet" href="style.css">
+         <title>Human Computer Interaction</title>
+     </head>
+
+  <section class="showcase">
+    <header>
+      <h2 class="logo"></h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="HCI.mp4.mp4" muted loop autoplay>
+        
+    </video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Human Computer</h2> 
+      <h3>Interaction</h3>
+      <p></p>
+      <a href="#">Explore</a>
+    </div>
+    <ul class="social">
+
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Introduction</a></li>
+      <li><a href="#">Lecture</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Privacy and policy</a></li>
+    </ul>
+    <script>
+        const menuToggle = document.querySelector(' .toggle')
+        const showcase = document.querySelector(" .showcase")
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        }            
+        )
+    </script>
+  </div>
+  
